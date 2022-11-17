@@ -1,0 +1,23 @@
+<style>#buttonvisible{width:120px;height:50px;border-radius:6px;background-color:green;border:#5b906b;color:#fff;border:none;font-size:20px;display:none;margin:0 auto;box-shadow:0 4px 15px 0 rgba(49,196,190,.75);cursor:pointer}#buttonvisible:hover{background-image:linear-gradient(to right top,#d16ba5,#c777b9,#ba83ca,#aa8fd8,#9a9ae1,#8aa7ec,#79b3f4,#69bff8,#52cffe,#41dfff,#46eefa,#5ffbf1)}#buttonlink{text-decoration:none}</style>
+
+<!--Add your link and CTA name here-->
+
+<a id="buttonlink" href="https://gmail.com/"> <button id="buttonvisible">
+        Button 2
+    </button>
+</a>
+
+<script>
+window.addEventListener('DOMContentLoaded', (event) => {
+   
+ function buttonshow() {
+document.getElementById('buttonvisible').style.display = 'block';
+   }
+
+  <!--Change the number here. It's in milliseconds-->
+  setTimeout(buttonshow, 5000);
+
+});
+
+ 
+</script>
